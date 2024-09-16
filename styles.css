@@ -1,0 +1,199 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    border: 2px solid #dbdbdb;
+    border-radius: 12px; 
+    overflow: hidden;
+    width: 90%;
+    max-width: 1000px;
+    height: 80%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+    flex: 1;
+    background-image: url('https://1.bp.blogspot.com/-89xqOOMIj_E/YDzkSEvUS4I/AAAAAAAAAVA/ia1iLjHQMtAH59sr6-sDomeZHDCGocLrACLcBGAsYHQ/s419/17%2Bwallpaper%2Bpara%2Busar%2Bno%2Bplano%2Bde%2Bfundo%2Bdo%2Bcelular%2Bou%2Bposts%2Bdo%2BInstagram.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.form-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-left: 2px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 1.5rem;
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 0.75rem 2.5rem 0.75rem 1rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fafafa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #0095f6;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 149, 246, 0.25);
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #0095f6;
+}
+
+.password-toggle:hover {
+    color: #007bb5;
+}
+
+.remembe-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.remembe-forgot label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.remembe-forgot a {
+    font-size: 14px;
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.remembe-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #0095f6;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    background-color: #007bb5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-login {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.social-button {
+    display: inline-block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+}
+
+.social-button.facebook:hover {
+    background-color: #2d4373;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.register-link p {
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.already-have-account {
+    margin-top: auto;
+    text-align: center;
+}
